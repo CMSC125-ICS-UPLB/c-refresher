@@ -10,10 +10,18 @@ need for CMSC 125.
 1. [Structures](#structures)
 1. [Pointers](#pointers)
 1. [Files](#files)
+1. [Strings](#strings)
 
 ## Hexadecimal Notation
+
 ## Functions
+
 ## Structures
+
 ## Pointers
+
 ## Linked Lists
+
 ## Files
+
+## Strings
