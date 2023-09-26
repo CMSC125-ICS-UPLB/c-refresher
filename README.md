@@ -11,7 +11,7 @@ need for CMSC 125.
 1. [Pointers](#pointers)
 1. [Linked Lists](#linked-lists)
 1. [Files](#files)
-1. [Strings](#arrays)
+1. [Arrays](#arrays)
 1. [Strings](#strings)
 1. [Bitwise Operators](#bitwise-operators)
 
