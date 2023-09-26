@@ -20,6 +20,11 @@ C programs using GCC in a linux environment.
 
 ## Hexadecimal Notation
 
+Hexadecimal notation isd used in presenting memory addresses and binary data. 
+It uses the following symbols (16 in total) to represent 
+a number: `0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F` . To indicate that a number is in hexadecimal it is usuall prepended with `0x`. For example: `0x00001000` is a 32-bit number equivalent to `4096` in 
+decimal and `0000 0000 0000 0000 0001 0000 0000 0000` in binary.
+
 ## Bitwise Operators
 
 ## Functions
