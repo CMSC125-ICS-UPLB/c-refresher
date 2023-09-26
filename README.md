@@ -9,6 +9,7 @@ need for CMSC 125.
 1. [Functions](#functions)
 1. [Structures](#structures)
 1. [Pointers](#pointers)
+1. [Linked Lists](#linked-lists)
 1. [Files](#files)
 1. [Strings](#strings)
 
