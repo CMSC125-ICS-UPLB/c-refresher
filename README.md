@@ -7,11 +7,13 @@ need for CMSC 125.
 
 1. [Hexadecimal Notation](#hexadecimal-notation)
 1. [Functions](#functions)
-1. [Functions](#structures)
-1. [Functions](#files)
+1. [Structures](#structures)
+1. [Pointers](#pointers)
+1. [Files](#files)
 
 ## Hexadecimal Notation
 ## Functions
-## Structures, Pointers, Linked Lists
-## Reading and Writing Files
-### fputs() and fgets()
+## Structures
+## Pointers
+## Linked Lists
+## Files
