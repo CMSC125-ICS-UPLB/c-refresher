@@ -1,7 +1,8 @@
 # C Refresher for CMSC 125
 
 This document discusses some topics in C programming and data structures that you will 
-need for CMSC 125.
+need for CMSC 125. We assume that you know the basics of C and you know how to build 
+C programs using GCC in a linux environment.
 
 # Table of Contents
 
