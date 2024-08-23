@@ -91,7 +91,8 @@ And we get the result
 0000 0000 0000 0000 0001 0010 0011 0100 
 1234
 ```
-Now to get the rightmost(bottom) 16 bits of `n`, we can use the `&` (bitwise and) operator.
+Now to get the rightmost(bottom) 16 bits of `n`, we can use the `&` (bitwise and) operator with the appropriate mask (or filter).
+Recall that any bit anded with 0 is zero and any bit anded with 1 is the bit.
 ```C
 //get the lowest 16 bits
 unsigned int bottom16 = n & 0x0000FFFF;
