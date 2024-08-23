@@ -57,13 +57,13 @@ void print_bits(size_t const size, void const * const ptr)
 }
 
 ```
-Let's define a variable n. This variable is 4 bytes (32 bits). We used hex notation to assign a value to it.
+Let's define a variable `n`. This variable is 4 bytes (32 bits). We used hex notation to assign a value to it.
 
 ```C
 unsigned int n=0x12345678;
 ```
 
-We can use printf to print n in decimal and in hex, and print_bits (as defined above to print it it binary):
+We can use `printf` to print n in decimal and in hex, and `print_bits` (as defined above to print it it binary):
 ```C
 printf("%d %x\n",n,n);
 print_bits(sizeof(n),&n);
