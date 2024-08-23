@@ -23,6 +23,18 @@ void insert_at_head(struct node **head, struct node *node){
    *head = node;
 }
 
+
+int search(struct node *head, int data){
+   struct node *tmp=head;
+   while (tmp != NULL) {
+      if (tmp->data == data)
+         return 1;
+      tmp = tmp->next;
+   }
+   return 0;
+}
+
+
 int main(){
 
    struct node *n1 = (struct node *)malloc(sizeof(struct node));
@@ -55,9 +67,25 @@ int main(){
 
 
 
+   if (search(head,3)){
+      printf("found");
+   }else{
+      printf("not found");
+   }
+
+   if (search(head,5)){
+      printf("found");
+   }else{
+      printf("not found");
+   }
+
+
+
+
    free(n1);
    free(n2);
    free(n3);
+   free(n4);
 
    return 0;
 
