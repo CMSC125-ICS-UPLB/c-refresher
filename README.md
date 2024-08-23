@@ -4,7 +4,7 @@ This document discusses some topics in C programming, data structures, and machi
 need for CMSC 125. We assume that you know the basics of C and you know how to build 
 C programs using GCC in a linux environment. 
 
-Please read first 7etsuo's [C Programming Reference](https://x.com/7etsuo/article/1822539624398614681). A local copy is availabe [here](https://github.com/CMSC125-ICS-UPLB/c-refresher/tree/main/7etsuo-c-reference). 
+Please read first 7etsuo's [C Programming Reference](https://x.com/7etsuo/article/1822539624398614681) article. A local copy is availabe [here](https://github.com/CMSC125-ICS-UPLB/c-refresher/tree/main/7etsuo-c-reference). 
 
 Other topics not covered in 7etsuo's article will be discussed below.
 
