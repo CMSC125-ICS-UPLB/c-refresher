@@ -105,7 +105,7 @@ And the result is
 0000 0000 0000 0000 0101 0110 0111 1000 
 5678
 ```
-The code `a>>b` is equivalent to `a/2^b` while the code `a<<b` is equivalent to `a\*2^b` as demonstrated below.
+The code `a>>b` is equivalent to `a/(2^b)` while the code `a<<b` is equivalent to `a*(2^b)` as demonstrated below.
 ```C
 printf("%d\n", 32>>2);
 printf("%d\n", 32<<2);
