@@ -1,28 +1,15 @@
 # C Refresher for CMSC 125 (Work in Progres)
 
-7etsuo has good [C Programming Reference](https://x.com/7etsuo/article/1822539624398614681).
-
-
-
-
-
 This document discusses some topics in C programming and data structures that you will 
 need for CMSC 125. We assume that you know the basics of C and you know how to build 
-C programs using GCC in a linux environment.
+C programs using GCC in a linux environment. Please read first 7etsuo's [C Programming Reference](https://x.com/7etsuo/article/1822539624398614681). A local copy is availabe [here](https://github.com/CMSC125-ICS-UPLB/c-refresher/tree/main/7etsuo-c-reference). Other topics not covered in 7etsuo's article will be discussed here.
 
 # Table of Contents
 
 1. [Hexadecimal Notation](#hexadecimal-notation)
 1. [Bitwise Operators](#bitwise-operators)
-1. [Functions](#functions)
-1. [Arrays](#arrays)
-1. [Pointers](#pointers)
-1. [Strings](#strings)
 1. [Files](#files)
-1. [Structures](#structures)
 1. [Linked Lists](#linked-lists)
-
-
 
 ## Hexadecimal Notation
 
