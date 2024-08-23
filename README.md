@@ -77,7 +77,7 @@ The result is shown below.
 
 ```
 
-Let's say you want to extract the leftmost(top) 16 bits of `n`. We can use the shift right operator for this
+Let's say you want to extract the leftmost(top) 16 bits of `n`. We can use the `>>` (shift right) operator for this
 
 ```C
    //get the topmost 16 bits
@@ -90,6 +90,19 @@ And we get the result
 ```Bash
 0000 0000 0000 0000 0001 0010 0011 0100 
 1234
+```
+Now to get the rightmost(bottom) 16 bits of `n`, we can use the `&` (bitwise and) operator.
+```C
+//get the lowest 16 bits
+unsigned int bottom16 = n & 0x0000FFFF;
+print_bits(sizeof(n),&bottom16);
+printf("%x\n",bottom16);
+```
+
+And the result is
+```Bash
+0000 0000 0000 0000 0101 0110 0111 1000 
+5678
 ```
 
 
