@@ -88,13 +88,31 @@ Memory for nodes are allocated using malloc(). The code below creates three node
 
    print_list(head);
 
-   /* de allocate the memory */
-   free(n1);
-   free(n2);
-   free(n3);
-
 ```
 
+One operation on linked lists is to add a node at the head of the list. The following function shows this. The function assumes a non-empty list and a node has been allocated. Observe the head is a pointer to a pointer. This is needed for the changes to take effect after the call.
+
+```C
+
+struct node *n4 = (struct node *)malloc(sizeof(struct node));
+
+...
+
+void insert_at_head(struct node **head, struct node *node){
+   node->next = *head;
+   *head = node;
+}
+
+...
+
+n4->data = 4;
+n4->next = NULL;
+
+insert_at_head(&head,n4);
+print_list(head);
+
+
+```
 
 
 
