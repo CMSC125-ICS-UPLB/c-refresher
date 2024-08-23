@@ -81,7 +81,7 @@ Memory for nodes are allocated using malloc(). The code below creates three node
    n2->next = n3;
 
    n3->data = 3;
-   n3->next = NULL;
+   n3->next = NULL;    /* next field of the last node is set to NULL */
 
    /* set the start of the head of the list to node 1 */
    head = n1;
