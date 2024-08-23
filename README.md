@@ -1,4 +1,10 @@
-# C Refresher for CMSC 125
+# C Refresher for CMSC 125 (Work in Progres)
+
+7etsuo has good [C Programming Reference](https://x.com/7etsuo/article/1822539624398614681).
+
+
+
+
 
 This document discusses some topics in C programming and data structures that you will 
 need for CMSC 125. We assume that you know the basics of C and you know how to build 
