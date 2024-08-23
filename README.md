@@ -142,10 +142,40 @@ if (search(head,5)){
    printf("not found");
 }
 
+```
 
+
+The last common operation is deleting a node. The code below searches for the data of it exists then deletes the node.
+
+```C
+void delete(struct node **head, int data){
+   struct node *target=*head;
+   struct node *prev;
+
+   while (target != NULL) {
+      if (target->data != data){
+         prev=target;
+         target=target->next;
+      }else if (target->data == data){
+         if (target == *head)
+            *head = target->next;
+         else
+            prev->next=target->next;
+         free(target);
+         break;
+      }
+   }
+}
+
+
+...
+
+delete(&head, 2);
+print_list(head);
 
 
 ```
+
 
 Source Code: [linkedlist01.c](./linkedlist01.c)
 

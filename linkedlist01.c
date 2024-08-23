@@ -34,8 +34,7 @@ int search(struct node *head, int data){
    return 0;
 }
 
-int delete(struct node **head, int data){
-   int found = 0;
+void delete(struct node **head, int data){
    struct node *target=*head;
    struct node *prev;
 
@@ -48,12 +47,10 @@ int delete(struct node **head, int data){
             *head = target->next;
          else
             prev->next=target->next;
+         free(target);
          break;
       }
    }
-   free(target);
-   return 0;
-
 }
 
 
