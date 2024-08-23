@@ -117,6 +117,7 @@ Resulting to
 128
 ```  
 
+Source Code: [bitwise.c](./bitwise.c)
 
 ## Functions
 
