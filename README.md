@@ -39,6 +39,28 @@ int main(){
 
 ## Linked Lists
 
+Linked Lists are dynamic data structures that use pointers that links the nodes together.
+A simple node definition is shown below.
+
+```C
+struct node {
+   int data; /*data*/
+   struct node *next;  /* pointer to the next node */
+};
+
+```
+
+A common operation is to print the contents of a linked list. The function below demontrates this.
+
+```C
+void print_list(struct node *p){
+   struct node *tmp=p;
+   while (tmp != NULL){
+      printf("%d ",tmp->data);
+      tmp = tmp->next;
+   }
+}
+```
 
 
 
