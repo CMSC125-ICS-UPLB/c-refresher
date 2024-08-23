@@ -34,7 +34,7 @@ int main(){
 ```
 
 ## Bitwise Operators
-Bitwise operators in C are useful to manipulate individual bits of a value. First let's have borrow a routine to print the bits.
+Bitwise operators in C are useful to manipulate individual bits of a value. First let's borrow a routine to print the bits.
 
 ```C
 // Assumes little endian
