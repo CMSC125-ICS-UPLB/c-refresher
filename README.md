@@ -40,7 +40,7 @@ int main(){
 ## Linked Lists
 
 Linked Lists are dynamic data structures that use pointers that links the nodes together.
-A simple node definition is shown below.
+A simple node definition is shown below. [linkedlist01.c](./linkedlist01.c)
 
 ```C
 struct node {
