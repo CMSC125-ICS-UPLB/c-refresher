@@ -12,6 +12,7 @@ Other topics not covered in 7etsuo's article will be discussed here.
 
 1. [Hexadecimal Notation](#hexadecimal-notation)
 1. [Bitwise Operators](#bitwise-operators)
+1. [Functions](#functions)
 1. [Files](#files)
 1. [Linked Lists](#linked-lists)
 
@@ -34,15 +35,7 @@ int main(){
 
 ## Functions
 
-## Arrays
-
-## Pointers
-
-## Strings
-
 ## Files
-
-## Structures
 
 ## Linked Lists
 
