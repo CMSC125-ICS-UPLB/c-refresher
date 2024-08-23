@@ -1,4 +1,6 @@
-# C Refresher for CMSC 125 (Work-in-Progress)
+# C Refresher for CMSC 125 
+
+(Work in Progress..)
 
 This document discusses some topics in C programming, data structures, and machine organization that you will 
 need for CMSC 125. We assume that you know the basics of C and you know how to build 
