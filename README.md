@@ -92,7 +92,7 @@ And we get the result
 1234
 ```
 Now to get the rightmost(bottom) 16 bits of `n`, we can use the `&` (bitwise and) operator with the appropriate mask (or filter).
-Recall that any bit anded with 0 is zero and any bit anded with 1 is the bit.
+Recall that any bit anded with 0 is zero and any bit anded with 1 is the bit as is.
 ```C
 //get the lowest 16 bits
 unsigned int bottom16 = n & 0x0000FFFF;
@@ -105,7 +105,17 @@ And the result is
 0000 0000 0000 0000 0101 0110 0111 1000 
 5678
 ```
+The code `a>>b` is equivalent to `a/2^b` while the code `a<<b` is equivalent to `a\*2^b` as demonstrated below.
+```C
+printf("%d\n", 32>>2);
+printf("%d\n", 32<<2);
+```
+Resulting to
 
+```Bash
+8
+128
+```  
 
 
 ## Functions
