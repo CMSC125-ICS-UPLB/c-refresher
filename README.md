@@ -77,8 +77,20 @@ The result is shown below.
 
 ```
 
+Let's say you want to extract the leftmost(top) 16 bits of `n`. We can use the shift right operator for this
 
+```C
+   //get the topmost 16 bits
+   unsigned int top16 = n >> 16;
+   print_bits(sizeof(n),&top16);
+   printf("%x\n",top16);
+```
 
+And we get the result
+```Bash
+0000 0000 0000 0000 0001 0010 0011 0100 
+1234
+```
 
 
 
