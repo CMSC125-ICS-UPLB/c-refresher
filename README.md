@@ -114,6 +114,37 @@ print_list(head);
 
 ```
 
+Another operation on linked list is searching. The code below shows a search function. It returns 1 if the data is found, 0 if not.
+
+```C
+int search(struct node *head, int data){
+   struct node *tmp=head;
+   while (tmp != NULL) {
+      if (tmp->data == data)
+         return 1;
+      tmp = tmp->next;
+   }
+   return 0;
+}
+
+...
+
+   if (search(head,3)){
+      printf("found");
+   }else{
+      printf("not found");
+   }
+
+   if (search(head,5)){
+      printf("found");
+   }else{
+      printf("not found");
+   }
+
+
+
+
+```
 
 
 
