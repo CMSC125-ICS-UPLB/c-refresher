@@ -138,13 +138,14 @@ struct node {
 A common operation is to print the contents of a linked list. The function below demontrates this.
 
 ```C
-void print_list(struct node *p){
-   struct node *tmp=p;
+void print_list(struct node *head){
+   struct node *tmp=head;
    while (tmp != NULL){
       printf("%d ",tmp->data);
       tmp = tmp->next;
    }
 }
+
 ```
 
 Memory for nodes are allocated using malloc(). The code below creates three nodes, links them together, then prints the list.
