@@ -34,25 +34,24 @@ int search(struct node *head, int data){
    return 0;
 }
 
-int delete(struct node *head, int data){
+int delete(struct node **head, int data){
    int found = 0;
-   struct node *target=head;
+   struct node *target=*head;
    struct node *prev;
-   struct node *next;
+
    while (target != NULL) {
-      if (target->data == data){
-         found = 1;
+      if (target->data != data){
+         prev=target;
+         target=target->next;
+      }else if (target->data == data){
+         if (target == *head)
+            *head = target->next;
+         else
+            prev->next=target->next;
          break;
       }
-      prev=target;
-      next=target->next;
-      target = target->next;
    }
-   if (found){
-      free(target);
-      prev->next = next;
-      return 1;
-   }
+   free(target);
    return 0;
 
 }
@@ -103,14 +102,10 @@ int main(){
       printf("not found");
    }
 
-   delete(head, 2);
+   delete(&head, 2);
    print_list(head);
    
 
-   free(n1);
-   free(n2);
-   free(n3);
-   free(n4);
 
    return 0;
 
