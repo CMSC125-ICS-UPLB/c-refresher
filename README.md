@@ -129,17 +129,18 @@ int search(struct node *head, int data){
 
 ...
 
-   if (search(head,3)){
-      printf("found");
-   }else{
-      printf("not found");
-   }
+if (search(head,3)){
+   printf("found");
+}else{
+   printf("not found");
+}
 
-   if (search(head,5)){
-      printf("found");
-   }else{
-      printf("not found");
-   }
+/* will return not found since 5 is not in the list */
+if (search(head,5)){
+   printf("found");
+}else{
+   printf("not found");
+}
 
 
 
