@@ -232,7 +232,7 @@ if (search(head,5)){
 ```
 
 
-The last common operation is deleting a node. The code below searches for the data of it exists then deletes the node.
+The last common operation is deleting a node. The code below searches for the data if it exists then deletes the node.
 
 ```C
 void delete(struct node **head, int data){
