@@ -34,6 +34,39 @@ int main(){
 ```
 
 ## Bitwise Operators
+Bitwise operators in C are useful to manipulat individual bits of a value. First let's have borrow a routine to print the bits.
+
+```C
+// Assumes little endian
+//https://stackoverflow.com/questions/111928/is-there-a-printf-converter-to-print-in-binary-format
+void print_bits(size_t const size, void const * const ptr)
+{
+    unsigned char *b = (unsigned char*) ptr;
+    unsigned char byte;
+    int i, j;
+    
+    for (i = size-1; i >= 0; i--) {
+        for (j = 7; j >= 0; j--) {
+            byte = (b[i] >> j) & 1;
+            printf("%u", byte);
+            if ((j % 4) == 0)
+               printf(" ");
+        }
+    }
+    puts("");
+}
+
+```
+Let's define a variable:
+
+```C
+unsigned int n=0x12345678;
+```
+
+
+
+
+
 
 ## Functions
 
