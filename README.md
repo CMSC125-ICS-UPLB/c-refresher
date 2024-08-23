@@ -108,6 +108,7 @@ void insert_at_head(struct node **head, struct node *node){
 n4->data = 4;
 n4->next = NULL;
 
+/* note that we pass the address of head during the call*/
 insert_at_head(&head,n4);
 print_list(head);
 
